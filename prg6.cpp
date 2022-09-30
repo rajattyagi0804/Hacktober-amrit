@@ -45,8 +45,9 @@ int main()
     }
     if(f==0)
     cout<<"\nPattern not found in the given string\n";
-    else
+    else{
     cout<<"\nPattern found at starting index: "<<i-m<<" and ending index: "<<i<<" in the given string";
-    
+        cout<<s[i-m]<<"to"<<s[i];
+    }
     return 0;
 }
