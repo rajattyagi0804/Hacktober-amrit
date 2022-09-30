@@ -66,7 +66,7 @@ cout<<"\nAll possible solutions are:\n\n";
 subsum(arr, d, 0, 0, n, ans);
 if (solutions == 0)
 {
-cout << "\n<----No solutions are possible---->\n";
+cout << "\n<----No feasible changes there-----\n";
 }
 else
 cout << "\nThe total number of solutions possible are: " << solutions << endl;
