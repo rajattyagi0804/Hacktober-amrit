@@ -70,5 +70,6 @@ cout << "\n<----No solutions are possible---->\n";
 }
 else
 cout << "\nThe total number of solutions possible are: " << solutions << endl;
+  cout<<"Time complexity is n^n";
 return 0;
 }
