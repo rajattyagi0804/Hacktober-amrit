@@ -64,6 +64,7 @@ int main()
     cin>>graph[i][j];
   
     dijkstra(graph, 0);
+    cout<<"Time complexity is V^2";
   
     return 0;
 }
