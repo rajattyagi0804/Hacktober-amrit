@@ -48,6 +48,7 @@ int main()
     else{
     cout<<"\nPattern found at starting index: "<<i-m<<" and ending index: "<<i<<" in the given string";
         cout<<s[i-m]<<"to"<<s[i];
+        cout<<"Time complexity is O(mn)";
     }
     return 0;
 }
