@@ -79,7 +79,7 @@ void find_MST(int cost[V][V])
 int main()  
 {  
     int cost[V][V];
-	cout<<"Enter the vertices for a graph with 4 vetices";
+	cout<<"Enter the vertices for a graph with n vertices";
     for (int i=0;i<V;i++)
     {
         for(int j=0;j<V;j++)
