@@ -201,8 +201,10 @@ void BU_DP(int n,int W)
       }
   }
   printf("Selected items: ");
+
   for(i=0;i<k-1;i++)
     printf("%d  ",s[i]);
+  printf("No of items selected %d",k);
   printf("\n");
 }
 
